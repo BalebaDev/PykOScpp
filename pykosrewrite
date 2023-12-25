@@ -76,4 +76,12 @@ int main() {
             deleteFile(filename);
             break;
         case 4:
-            showFileProperties
+            showFileProperties(filename);
+            break;
+        default:
+            cout << "Invalid choice" << endl;
+            break;
+    }
+
+    return 0;
+}
